@@ -1,0 +1,227 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Product Assembly Cost\n"
+"POT-Creation-Date: 2020-08-16 14:44+0100\n"
+"PO-Revision-Date: 2018-03-05 17:36+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: product-assembly-cost.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/class-wc-product-extra-service-assembly.php:14
+#, php-format
+msgid "Request assembly of this item for %s?"
+msgstr ""
+
+#: includes/class-wc-product-extra-service-assembly.php:15
+msgid "Assembly"
+msgstr ""
+
+#: includes/class-wc-product-extra-service-assembly.php:40
+msgid "Product Assembly / Gift Wrap / ..."
+msgstr ""
+
+#: includes/class-wc-product-extra-service-assembly.php:46
+msgid "Enabled by default?"
+msgstr ""
+
+#: includes/class-wc-product-extra-service-assembly.php:47
+msgid "Activate the service by default for all products"
+msgstr ""
+
+#: includes/class-wc-product-extra-service-assembly.php:51
+msgid "No (you should enable it for each product individually)"
+msgstr ""
+
+#: includes/class-wc-product-extra-service-assembly.php:52
+msgid "Yes (you can disable it for each product individually)"
+msgstr ""
+
+#: includes/class-wc-product-extra-service-assembly.php:56
+msgid "Service"
+msgstr ""
+
+#: includes/class-wc-product-extra-service-assembly.php:58
+msgid "The service you are offering"
+msgstr ""
+
+#: includes/class-wc-product-extra-service-assembly.php:62
+msgid "Default cost"
+msgstr ""
+
+#: includes/class-wc-product-extra-service-assembly.php:64
+#, php-format
+msgid ""
+"The cost of the service (%s), per product, unless overridden at the "
+"product level"
+msgstr ""
+
+#: includes/class-wc-product-extra-service-assembly.php:67
+#: includes/class-wc-product-extra-service-assembly.php:225
+#: includes/class-wc-product-extra-service-assembly.php:321
+msgid "inclusive of tax"
+msgstr ""
+
+#: includes/class-wc-product-extra-service-assembly.php:69
+#: includes/class-wc-product-extra-service-assembly.php:227
+#: includes/class-wc-product-extra-service-assembly.php:323
+msgid "exclusive of tax"
+msgstr ""
+
+#: includes/class-wc-product-extra-service-assembly.php:78
+msgid "Multiply cost?"
+msgstr ""
+
+#: includes/class-wc-product-extra-service-assembly.php:79
+msgid "Multiply service cost by the quantity of product purchased"
+msgstr ""
+
+#: includes/class-wc-product-extra-service-assembly.php:83
+#: includes/class-wc-product-extra-service-assembly.php:473
+#: includes/class-wc-product-extra-service-assembly.php:497
+msgid "Yes"
+msgstr ""
+
+#: includes/class-wc-product-extra-service-assembly.php:84
+msgid "No (charge only once per cart line)"
+msgstr ""
+
+#: includes/class-wc-product-extra-service-assembly.php:88
+msgid "Message"
+msgstr ""
+
+#: includes/class-wc-product-extra-service-assembly.php:90
+msgid "Change this text according to the service you are offering"
+msgstr ""
+
+#: includes/class-wc-product-extra-service-assembly.php:92
+msgid ""
+"<code>{checkbox}</code> will be replaced with a checkbox and <code>{price}"
+"</code> will be replaced with the service cost"
+msgstr ""
+
+#: includes/class-wc-product-extra-service-assembly.php:94
+msgid "The checkbox and label shown to the user on the frontend"
+msgstr ""
+
+#: includes/class-wc-product-extra-service-assembly.php:97
+msgid "Show cost as a global fee?"
+msgstr ""
+
+#: includes/class-wc-product-extra-service-assembly.php:98
+msgid ""
+"Enable this to show the cost as a global fee on the cart subtotals, "
+"instead of adding the cost to the product itself - Recommended if you’re "
+"not multiplying the cost and to avoid product discounts applying to it"
+msgstr ""
+
+#: includes/class-wc-product-extra-service-assembly.php:104
+msgid "Add service name to product"
+msgstr ""
+
+#: includes/class-wc-product-extra-service-assembly.php:105
+msgid ""
+"Enable this to add the service name to the product line on the cart/order"
+msgstr ""
+
+#: includes/class-wc-product-extra-service-assembly.php:169
+#: includes/class-wc-product-extra-service-assembly.php:202
+#, php-format
+msgid "%s available"
+msgstr ""
+
+#: includes/class-wc-product-extra-service-assembly.php:173
+msgid "Enabled by default"
+msgstr ""
+
+#: includes/class-wc-product-extra-service-assembly.php:185
+#, php-format
+msgid "Disable %s"
+msgstr ""
+
+#: includes/class-wc-product-extra-service-assembly.php:190
+#: includes/class-wc-product-extra-service-assembly.php:284
+#, php-format
+msgid "Explicitly disable %s for this product"
+msgstr ""
+
+#: includes/class-wc-product-extra-service-assembly.php:207
+#: includes/class-wc-product-extra-service-assembly.php:299
+#, php-format
+msgid ""
+"Enable this option if the customer can request the %s service for this "
+"product"
+msgstr ""
+
+#: includes/class-wc-product-extra-service-assembly.php:216
+#: includes/class-wc-product-extra-service-assembly.php:311
+#, php-format
+msgid "%s cost"
+msgstr ""
+
+#: includes/class-wc-product-extra-service-assembly.php:222
+#: includes/class-wc-product-extra-service-assembly.php:318
+#, php-format
+msgid "Override the default cost by inputting a value here (%s)"
+msgstr ""
+
+#: includes/class-wc-product-extra-service-assembly.php:268
+#, php-format
+msgid "%s enabled by default"
+msgstr ""
+
+#: includes/class-wc-product-extra-service-assembly.php:371
+msgid "free"
+msgstr ""
+
+#: includes/class-wc-product-extra-service-assembly.php:473
+#, php-format
+msgid "%s / unit"
+msgstr ""
+
+#: includes/class-wc-product-extra-service-assembly.php:523
+#, php-format
+msgid "%s (%d items)"
+msgstr ""
+
+#: includes/class-wc-product-extra-service-assembly.php:542
+#, php-format
+msgid "(includes %s)"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Product Assembly / Gift Wrap / ... Cost for WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid ""
+"https://www.webdados.pt/wordpress/plugins/product-assembly-cost-for-"
+"woocommerce/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Add an option to your WooCommerce products to enable assembly, gift wrap "
+"or any other service and optionally charge a fee for it."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Webdados"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.webdados.pt"
+msgstr ""
